@@ -18,5 +18,5 @@ The package structure is as follows:
   * meteor specific extensions of *The Original*, which won't be proposed as PRs
   
 ##Versions
-The versions start with 0.0.0. and is independent of the lodash version.
-If/when there will be more followers I will change the version to the current lodash version
+The meteor package versions start with 0.0.0 and are ignorant of the lodash version.
+If/when there will be more followers and i feel that the package is stable enough, I will change the version to the current lodash version
