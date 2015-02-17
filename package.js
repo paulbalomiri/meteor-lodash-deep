@@ -1,6 +1,6 @@
 Package.describe({
 name: "pba:lodash-deep",
-description: "lodash deep meteor repackaging for client/server",
+summary: "lodash deep meteor repackaging for client/server",
 version: '0.0.0'
 });
 
