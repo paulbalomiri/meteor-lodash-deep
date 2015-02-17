@@ -1,9 +1,8 @@
 # pba:lodash-deep
 lodash-deep binding for meteor client/server
-This package contains bindings for 
+This package contains bindings for the latest **modified** of lodash deep that is included in this meteor package.
 
-See [lodash-deep](https://github.com/paulbalomiri/lodash-deep) for 
-the latest **modified** of lodash deep that is included in this meteor package.
+See [lodash-deep](https://github.com/paulbalomiri/lodash-deep) for the *modified* lodash-deep version included in this package.
 
 ## Contents
 Originally this package is based on [marklagendijk's lodash-deep](https://github.com/marklagendijk/lodash-deep).
