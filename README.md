@@ -7,7 +7,7 @@ See [lodash-deep](https://github.com/paulbalomiri/lodash-deep) for the *modified
 ## Contents
 Originally this package is based on [marklagendijk's lodash-deep](https://github.com/marklagendijk/lodash-deep).
 
-The package structure is as follows:
+The git fork/subtree structure is as follows:
 * [marklagendijk's lodash-deep](https://github.com/marklagendijk/lodash-deep) - *The Original*
 * [my lodash-deep repository](https://github.com/paulbalomiri/lodash-deep) containing proposed modifications
   * If the PRs from this repository are accepted the repository the subtree contained in this package will be
@@ -15,6 +15,7 @@ The package structure is as follows:
 * [This repository](https://github.com/paulbalomiri/meteor-lodash-deep) containing
   * meteor wrapper files/package definitions
   * meteor specific extensions of *The Original*, which won't be proposed as PRs
+  * [my lodash-deep repository](https://github.com/paulbalomiri/lodash-deep) is linked as a git subtree module into this repo.
   
 ##Versions
 The meteor package versions start with 0.0.0 and are ignorant of the lodash version.
