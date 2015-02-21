@@ -1,7 +1,9 @@
 Package.describe({
-name: "pba:lodash-deep",
-summary: "lodash deep meteor repackaging for client/server",
-version: '0.0.0'
+    name: "pba:lodash-deep",
+    summary: "lodash deep meteor repackaging for client/server",
+    environments: ['client'], 
+    git:"git@github.com:paulbalomiri/meteor-lodash-deep.git",
+    version: '0.0.0'
 });
 
 Package.on_use(function(api) {
