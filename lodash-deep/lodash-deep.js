@@ -88,8 +88,7 @@
 
                             } 
                             else {
-
-                                return object[property] =  (properties[index+1] % 1 ===0)?[]:{};
+                                return object[property] =  (!_.isNull(properties[index+1]) && properties[index+1] % 1 ===0)?[]:{};
                             }
                         } 
                     return ret;
@@ -129,7 +128,7 @@
                 }
                 else if(!_.isObject(currentObject[property])){
                     // Create the missing object or array
-                    currentObject[property] = properties[index + 1] % 1 === 0 ? [] : {};
+                    currentObject[property] = (!_.isNull(properties[index+1]) &&properties[index + 1] % 1 === 0) ? [] : {};
                 }
                 currentObject = currentObject[property];
             });
